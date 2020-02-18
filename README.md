@@ -5,7 +5,6 @@ My first ever single-CLI!
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/mynewcli.svg)](https://npmjs.org/package/mynewcli)
-[![CircleCI](https://circleci.com/gh/mdramirez071/mynewcli/tree/master.svg?style=shield)](https://circleci.com/gh/mdramirez071/mynewcli/tree/master)
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
 [![Downloads/week](https://img.shields.io/npm/dw/mynewcli.svg)](https://npmjs.org/package/mynewcli)
 [![License](https://img.shields.io/npm/l/mynewcli.svg)](https://github.com/mdramirez071/mynewcli/blob/master/package.json)
