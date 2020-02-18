@@ -4,7 +4,9 @@ class MynewcliCommand extends Command {
   async run() {
     const {flags} = this.parse(MynewcliCommand)
     const name = flags.name || 'world'
+    const intro = flags.intro || 'Welcome to my first single-CLI'
     this.log(`hello ${name} from ./src/index.js`)
+    this.log(`${intro} from ./src/index.js`)
   }
 }
 
