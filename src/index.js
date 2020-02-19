@@ -5,8 +5,10 @@ class MynewcliCommand extends Command {
     const {flags} = this.parse(MynewcliCommand)
     const name = flags.name || 'world'
     const intro = flags.intro || 'Welcome to my first single-CLI'
+    const description = flags.description || 'CLIs are great for automating things!'
     this.log(`hello ${name} from ./src/index.js`)
     this.log(`${intro} from ./src/index.js`)
+    this.log(`${description} from ./src/index.js`)
   }
 }
 

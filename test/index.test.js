@@ -18,8 +18,15 @@ describe('mynewcli', () => {
 
   test
   .stdout()
-  .do(() => cmd.run(['--name', 'jeff']))
-  .it('runs hello --name jeff', ctx => {
-    expect(ctx.stdout).to.contain('hello jeff')
+  .do(() => cmd.run([]))
+  .it('runs Description', ctx => {
+    expect(ctx.stdout).to.contain('CLIs are great for automating things!')
+  })
+
+  test
+  .stdout()
+  .do(() => cmd.run(['--name', 'Michael']))
+  .it('runs hello --name Michael', ctx => {
+    expect(ctx.stdout).to.contain('hello Michael')
   })
 })
